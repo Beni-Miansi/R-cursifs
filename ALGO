@@ -1,0 +1,35 @@
+
+
+// Tarification des billets
+
+Function tarificationDesBillets(age: INTEGER): INTEGER
+BEGIN
+    If (age <= 12) Then
+        Return 10$
+    Else If (age >= 13 AND age <= 17) Then
+        Return 15$
+    Else
+        Return 20$
+    End If
+END Function
+
+
+// ---------------------------------------------------------------------------------------------
+
+
+// Séquence de Fibonacci
+
+Function fibonacci(n: INTEGER): INTEGER
+BEGIN
+    If (n = 0) Then
+        Return 0
+    Else If (n = 1) Then
+        Return 1
+    Else
+        Return fibonacci(n - 1) + fibonacci(n - 2)
+    End If
+END Function
+
+
+
+// -------------------------------------------------------------------------------------------------
